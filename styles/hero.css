@@ -1,0 +1,51 @@
+.hero {
+  background-image: url("/images/hero.jpg");
+  background-size: cover;
+  height: 707px;
+  padding-top: 194px;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.hero-container {
+  position: relative;
+  z-index: 1;
+}
+
+.main-heading span {
+  color: #e3b873;
+  font-family: Yeseva One;
+}
+
+.hero__text p {
+  font-size: 22px;
+  line-height: 36px;
+  margin: 20px 0 40px;
+  width: 504px;
+}
+
+.hero__text .primary {
+  padding: 20px 40px;
+}
+
+@media screen and (max-width: 430px) {
+  .hero {
+    height: 476px;
+    padding-top: 85px;
+  }
+  .hero__text p {
+    font-size: 14px;
+    line-height: 19px;
+    margin: 16px 0 36px;
+    width: 100%;
+  }
+}

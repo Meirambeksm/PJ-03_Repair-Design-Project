@@ -1,0 +1,57 @@
+.header {
+  background-color: rgb(18, 18, 18);
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  height: 83px;
+  align-items: center;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.logo {
+  color: #e3b873;
+}
+
+.header__phone {
+  color: #e3b873;
+  text-decoration: underline;
+}
+
+.header__list {
+  list-style: none;
+  display: flex;
+  gap: 47px;
+}
+
+.header__item a {
+  text-decoration: none;
+}
+
+.header__item a:hover {
+  color: #e3b873;
+}
+
+@media screen and (max-width: 430px) {
+  .header__list {
+    display: none;
+  }
+
+  .header .button {
+    display: none;
+  }
+
+  .header__wrapper {
+    max-width: 90.4%;
+    height: 57px;
+  }
+
+  .header__phone {
+    color: #fff;
+    text-decoration: none;
+  }
+}

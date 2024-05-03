@@ -1,0 +1,107 @@
+.repair {
+  margin-top: 76px;
+  margin-bottom: 124px;
+  text-align: center;
+}
+
+.repair__container {
+  max-width: 1236px;
+  margin: 0 auto;
+}
+
+.repair-cards {
+  display: flex;
+  gap: 30px;
+  margin-top: 31px;
+}
+
+.repair__card__text {
+  background-color: #fff;
+  padding: 24px 34px 50px;
+  margin: 0 31px;
+  margin-top: -127px;
+  position: relative;
+  box-shadow: 10px 10px 20px 0px #00000008;
+  text-align: start;
+}
+
+.repair__card__list {
+  list-style: inside;
+}
+
+.repair__card__text > h1 {
+  color: #363636;
+  font-family: Yeseva One;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.95px;
+  margin-bottom: 13px;
+}
+
+.repair__card__item {
+  color: #959595;
+  font-size: 13px;
+  line-height: 26.6px;
+}
+
+.repair__card__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 228px;
+  height: 54px;
+  font-family: Yeseva One;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 24.95px;
+  text-transform: uppercase;
+  background-color: #e3b873;
+  margin-top: -27px;
+  margin-left: 32px;
+  position: relative;
+  z-index: 1;
+}
+
+@media screen and (max-width: 430px) {
+  .repair {
+    margin-top: 58px;
+    margin-bottom: 55px;
+  }
+  .repair__container {
+    max-width: 90.4%;
+  }
+  .repair-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-top: 40px;
+  }
+
+  .repair__cards {
+    width: 100%;
+  }
+  .repair__card__image > img {
+    width: 100%;
+  }
+  .repair__card__text {
+    padding: 21px 0 37px 31px;
+    margin: -142px 70px 0 0;
+  }
+  .repair__card__text > h1 {
+    font-size: 15px;
+    line-height: 20.79px;
+    margin-bottom: 10px;
+  }
+  .repair__card__item {
+    font-size: 13px;
+    line-height: 22.07px;
+  }
+  .repair__card__info {
+    width: 190px;
+    height: 40px;
+    font-size: 15px;
+    line-height: 20.79px;
+    margin-top: -20px;
+    margin-left: 0;
+  }
+}

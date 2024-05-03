@@ -1,0 +1,133 @@
+.measure {
+  margin-bottom: 242px;
+  display: flex;
+  flex-direction: column;
+}
+
+.measure__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.measure__list {
+  display: flex;
+  flex-direction: column;
+  gap: 102px;
+  background-image: url("/images/svg/measure-form_background.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding: 70px 75px 54px 250px;
+}
+
+.measure__bullet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 42px;
+  height: 42px;
+  background-color: #e3b873;
+  border-radius: 50%;
+  font-family: Yeseva One;
+  font-size: 18px;
+  line-height: 24.95px;
+}
+
+.measure__item {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+
+.measure__text {
+  display: flex;
+  width: 320px;
+  color: #363636;
+  font-size: 14px;
+  line-height: 19.1px;
+}
+
+.measure__form {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+  background-color: #131313;
+  width: 506px;
+  height: 509px;
+  padding: 28px 49px 27px;
+  box-shadow: 0px 30px 30px 0px #0000000d;
+}
+
+.form__heading {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.78px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin-bottom: 16px;
+}
+
+.inputs .form__input::placeholder {
+  color: #fff;
+}
+
+.inputs .form__label {
+  color: #fff;
+  opacity: 50%;
+}
+
+.inputs .form__input {
+  color: #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.measure__form .agreement__text {
+  color: #fff;
+}
+
+.measure__form button {
+  margin-top: 40px;
+  margin-left: auto;
+  width: 213px;
+  height: 51px;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 21.28px;
+}
+
+.measure__discount {
+  display: flex;
+  align-self: end;
+  gap: 25px;
+  align-items: center;
+  margin-right: 132.5px;
+}
+
+.discount__bullet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 72px;
+  height: 72px;
+  background-color: #e3b873;
+  border-radius: 50%;
+  box-shadow: 0px 10px 20px 0px #edc07833;
+}
+
+.discount__text {
+  color: #e3b873;
+  font-size: 18px;
+  line-height: 25.78px;
+}
+
+@media screen and (max-width: 430px) {
+  .measure {
+    display: none;
+  }
+}
